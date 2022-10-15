@@ -5,7 +5,7 @@ class Parent extends Component {
       super(props)
     
       this.state = {
-         message:"Hello",
+         parentName:"Parent",
       }
       this.handleGreet = this.handleGreet.bind(this)
     }
@@ -14,7 +14,7 @@ class Parent extends Component {
     handleGreet(childName){
         // alert(this.state.message +" parents " + "from "+ childName)
         // using backtic
-        alert(`${this.state.message} parents from ${childName}`)
+        alert(`Hello ${this.state.parentName} from ${childName}`)
     }
   render() {
     return (
