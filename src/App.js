@@ -1,6 +1,7 @@
 
 import './App.css';
-import UserGreeting from './components/conditional rendering/UserGreeting';
+import NameList from './components/NameList';
+// import UserGreeting from './components/conditional rendering/UserGreeting';
 // import Great from './components/Great';
 // import Counter from './components/Counter';
 // import Bindevents from './components/Bindevents';
@@ -9,7 +10,8 @@ import UserGreeting from './components/conditional rendering/UserGreeting';
 function App() {
   return (
     <div className="App">
-      <UserGreeting/>
+      <NameList/>
+      {/* <UserGreeting/> */}
       {/* <Parent/> */}
       {/* <Bindevents/> */}
       {/* <Great/> */}
