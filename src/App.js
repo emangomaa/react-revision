@@ -1,6 +1,7 @@
 
 import './App.css';
-import Form from './components/Form';
+// import Form from './components/Form';
+import ParentComp from './components/Pure component/ParentComp';
 // import NameList from './components/NameList';
 // import UserGreeting from './components/conditional rendering/UserGreeting';
 // import Great from './components/Great';
@@ -11,7 +12,8 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <ParentComp/>
+      {/* <Form/> */}
       {/* <NameList/> */}
       {/* <UserGreeting/> */}
       {/* <Parent/> */}
